@@ -432,3 +432,28 @@ footer {
 footer p {
   text-align: center;
 }
+.project-description {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); /* Centering */
+  width: 90%; /* Adjust width to fit text */
+  max-width: 80%; /* Limit max width */
+  height: auto; /* Adjust height dynamically */
+  background: rgba(255, 255, 255, 0.85); /* Dark background for readability */
+  color: rgb(0, 0, 0);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+  font-size: 1.1rem;
+  border-radius: 10px; /* Smooth corners */
+  display: none; /* Initially hidden */
+}
+
+.article-container {
+  position: relative;
+  overflow: hidden;
+}
+
